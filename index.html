@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShaHD ELSAIDY - Cybersecurity & Web Development</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS code starts here */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .hero-section {
+            background-color: #2c3e50;
+            color: #fff;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .profile-container {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin: 0 auto 20px;
+            background-color: #fff;
+            border: 5px solid #fff;
+        }
+
+        .profile-pic {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin: 10px 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            font-weight: 400;
+            margin: 0;
+        }
+
+        section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 900px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-me p, .project-section p, .services-section p {
+            text-align: justify;
+        }
+
+        .expertise-grid, .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .expertise-item, .skill-group {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 6px;
+        }
+
+        .expertise-item h3, .skill-group h3 {
+            margin-top: 0;
+        }
+
+        .services-section .service-category {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .journey-item {
+            border-left: 3px solid #3498db;
+            padding-left: 15px;
+            margin-bottom: 20px;
+        }
+
+        .footer-section {
+            background-color: #34495e;
+            color: #fff;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .social-links a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        .social-links a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="profile-container">
+            <img src="profile-photo.jpg" alt="Shahd Mostafa Elsaidy" class="profile-pic">
+        </div>
+        <h1>SHAHD MOSTAFA ELSAIDY</h1>
+        <h2>CYBERSECURITY ANALYST | SOC MONITORING | PENETRATION TESTING</h2>
+    </header>
+
+    <section class="about-me">
+        <h2>ABOUT ME</h2>
+        <p>I'm Shahd Mostafa Elsaidy, a Computer Science student at Menoufia University and a dedicated SOC Analyst Intern. My passion lies in fortifying digital landscapes against evolving threats and crafting dynamic web experiences. I specialize in real-time threat monitoring, incident response, and developing innovative security solutions, alongside building modern, scalable web applications.</p>
+    </section>
+    
+    <section class="project-section">
+        <h2>AUTOMATED PENETRATION TESTING SYSTEM</h2>
+        <h3>Automated Penetration Testing System</h3>
+        <p>One of my key innovations is an Automated Penetration Testing System. This advanced tool seamlessly integrates industry-leading platforms like Nmap, Shodan, Metasploit, and DeepExploit. Powered by Artificial Intelligence (LLMs), it generates intelligent, actionable vulnerability reports, streamlining the identification and remediation of security weaknesses for enhanced digital protection.</p>
+    </section>
+    
+    <section class="expertise-section">
+        <h2>My Expertise: Bridging Security & Development</h2>
+        <div class="expertise-grid">
+            <div class="expertise-item">
+                <h3>Strengthening Network & System Security</h3>
+                <p>Implementing robust defenses to protect your infrastructure from cyber threats.</p>
+            </div>
+            <div class="expertise-item">
+                <h3>Conducting Structured Penetration Tests</h3>
+                <p>Proactive identification of vulnerabilities before they can be exploited.</p>
+            </div>
+            <div class="expertise-item">
+                <h3>Building Modern, Secure Web Applications</h3>
+                <p>Crafting scalable and secure web solutions tailored to your specific needs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="services-section">
+        <h2>Comprehensive Service Offerings</h2>
+        <div class="service-category">
+            <h3>Cybersecurity Services</h3>
+            <ul>
+                <li>SOC Monitoring & Incident Response</li>
+                <li>Penetration Testing (Web, Network, System)</li>
+                <li>Vulnerability Assessment & Reporting</li>
+            </ul>
+        </div>
+        <div class="service-category">
+            <h3>Web Development</h3>
+            <ul>
+                <li>Full-Stack Development with .NET</li>
+                <li>Frontend Development (HTML, CSS, JavaScript, Bootstrap)</li>
+                <li>Database Design & Integration (SQL, MySQL)</li>
+            </ul>
+        </div>
+        <p>I also provide expert guidance in cybersecurity awareness and hands-on training for essential security tools and practices.</p>
+    </section>
+
+    <section class="skills-section">
+        <h2>Key Skills & Technologies</h2>
+        <div class="skills-grid">
+            <div class="skill-group">
+                <h3>Cybersecurity Tools</h3>
+                <ul>
+                    <li>Nmap, Shodan, Metasploit</li>
+                    <li>Wireshark, SIEM Tools</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Programming & Scripting</h3>
+                <ul>
+                    <li>C#, JavaScript, Bash</li>
+                    <li>SQL, HTML, CSS</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Development Ecosystems</h3>
+                <ul>
+                    <li>ASP.NET, Bootstrap</li>
+                    <li>Git, Visual Studio</li>
+                </ul>
+            </div>
+            <div class="skill-group">
+                <h3>Essential Soft Skills</h3>
+                <ul>
+                    <li>Problem Solving</li>
+                    <li>Team Collaboration</li>
+                    <li>Analytical Thinking</li>
+                    <li>Fast Learning</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="journey-section">
+        <h2>Professional Journey & Education</h2>
+        <div class="journey-item">
+            <h3>SOC Analyst Intern (2025 – Present)</h3>
+            <p>At DEPI, I actively monitor weekly security alerts and analyze logs from diverse sources, contributing to critical incident response and reporting.</p>
+        </div>
+        <div class="journey-item">
+            <h3>Certifications Acquired (2025)</h3>
+            <p>Completed CompTIA Network+, Security+, Linux Administration (ITI MOOCA), and eCIR Prep, enhancing my foundational and advanced cybersecurity knowledge.</p>
+        </div>
+        <div class="journey-item">
+            <h3>BSc in Computer Science (2022 – 2026)</h3>
+            <p>Pursuing my Bachelor's at Menoufia University, specializing in core computer science principles and advanced applications.</p>
+        </div>
+        <div class="journey-item">
+            <h3>Full-Stack Web Development Course (2024)</h3>
+            <p>Intensive training at ITI, mastering full-stack development with .NET to build comprehensive web solutions.</p>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+        <h2>LET'S BUILD SOMETHING SECURE TOGETHER!</h2>
+        <p>READY TO ENHANCE YOUR CYBERSECURITY POSTURE OR DEVELOP A POWERFUL NEW WEB APPLICATION? I'M EXCITED TO COLLABORATE AND BRING YOUR VISION TO LIFE.</p>
+        <div class="social-links">
+            <p>CONNECT WITH ME ON LINKEDIN: <a href="WWW.LINKEDIN.COM/IN/SHAHD-ELSAIDY" target="_blank">linkedin.com/in/shahd-elsaidy</a></p>
+            <p>EXPLORE MY WORK ON GITHUB: <a href="GITHUB.COM/SHAHDELSAIDY" target="_blank">github.com/shahdelsaidy</a></p>
+        </div>
+    </footer>
+
+</body>
+</html>
